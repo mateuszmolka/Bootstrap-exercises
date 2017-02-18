@@ -1,21 +1,16 @@
-
-#slider{
-    position: relative;
-    overflow: hidden;
-    height: 600px;
-    background-color: rgba(155,155,155,0.5);
+body{
+    margin: 0;
 }
-
-.slide-show{
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%,0);
-    height: 80%;
-    width: 80%
+.container{
+    background-color:  red;
 }
-    
-.single-slide p{
-    position: absolute;
-    top: 0;
-    color: white;
+.container-fluid{
+    background-color:  lightcoral;
+}
+.column{
+    background-color: pink;
+    border-bottom: 5px red solid;
+}
+.column:nth-child(odd) {
+    background-color: green;
 }
